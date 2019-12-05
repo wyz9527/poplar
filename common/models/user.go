@@ -82,5 +82,5 @@ func Login(username, password string) bool {
 }
 
 func DeleteUser(uid string) {
-	delete(UserList, uid)
+	delete(UserList, uid) 
 }
